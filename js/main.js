@@ -43,10 +43,19 @@ obj.showContext();
 */
 
 // Default function Arguments
+function randomNumber(){
+    console.log('Generation a random number...')
+    num = Math.random() * 10;
+    console.log('o número gerado é ', num);
+    return num
+}
 
-function multiply(a=1, b=1){
+
+function multiply(a=1, b= randomNumber()){
     return a * b
 }
 
-console.log(multiply(2));
+console.log( multiply(5));
+
+console.log(multiply(5, 2));
 
