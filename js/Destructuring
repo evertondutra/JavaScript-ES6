@@ -21,3 +21,21 @@ console.log(tomato, tomato2);
 
 ** Com Objetos
 
+var obj = {
+    name: 'Celso',
+    props: {
+        age: 2,
+        favoriteCollors: ['black', 'blue']
+    }
+};
+
+var age = obj.props.age;
+
+// Detructuring Assignment
+
+var {name } = obj
+var {
+    props: {age: age2, favoriteCollors:[collor1, collor2]}
+} = obj
+
+console.log(collor1);
