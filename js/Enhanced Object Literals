@@ -1,0 +1,10 @@
+// Objetos Literais
+
+//maneira classica de se declarar
+var prop1 = 'Digital Innovation One';
+
+var obj = {
+    prop1
+};
+
+console.log(obj);

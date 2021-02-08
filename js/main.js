@@ -61,4 +61,68 @@ console.log( multiply(5));
 
 console.log(multiply(5, 2));
 
+
+
+// Objetos Literais
+
+//maneira classica de se declarar
+var prop1 = 'Digital Innovation One';
+
+var obj = {
+    prop1
+};
+
+console.log(obj);
+
+
+const str = "Digital Innovation One";
+
+function logarg(...rgs) {
+    console.log(args)
+}
+
+logarg(...str);
+
+
+// Modo normal
+var arr = ['Apple', 'Banana', 'Orange', ['Tomato']];
+
+var apple = arr[0];
+var banana = arr[1];
+var orange = arr[2];
+var tomato = arr[3][0];
+
+// Detructuring Assignment
+
+var [apple2, banana2, orange2, [tomato2]] = [
+    'Apple',
+    'Banana',
+    'Orange',
+    ['Tomato']
+];
+
+console.log(tomato, tomato2);
+
 */
+
+// MOdo normal
+
+var obj = {
+    name: 'Celso',
+    props: {
+        age: 2,
+        favoriteCollors: ['black', 'blue']
+    }
+};
+
+var age = obj.props.age;
+
+// Detructuring Assignment
+
+var {name } = obj
+var {
+    props: {age: age2, favoriteCollors:[collor1, collor2]}
+} = obj
+
+console.log(collor1);
+

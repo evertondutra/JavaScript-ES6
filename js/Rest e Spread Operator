@@ -1,0 +1,14 @@
+function soma(a, b){
+    return a + b;
+}
+
+console.log(sum(2, 3));
+
+
+const str = "Digital Innovation One";
+
+function logarg(...rgs) {
+    console.log(args)
+}
+
+logarg(...str);
