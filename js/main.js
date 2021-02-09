@@ -103,7 +103,7 @@ var [apple2, banana2, orange2, [tomato2]] = [
 
 console.log(tomato, tomato2);
 
-*/
+
 
 // MOdo normal
 
@@ -126,3 +126,14 @@ var {
 
 console.log(collor1);
 
+
+// Symbols
+
+const uniqueId = Symbol('Helo');
+
+const obj = {
+    [uniqueId]: 'Hello'
+};
+
+console.log(obj);
+*/

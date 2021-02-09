@@ -1,0 +1,11 @@
+   Symbols
+
+maneira de gerar um identificador único
+
+const uniqueId = Symbol('Helo');
+
+const obj = {
+    [uniqueId]: 'Hello'
+};
+
+console.log(obj);
